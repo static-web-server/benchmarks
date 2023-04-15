@@ -1,0 +1,13 @@
+{
+	http_port 8788
+	log name {
+		level ERROR
+		output discard
+	}
+}
+
+localhost:8788
+
+file_server {
+	root public
+}
