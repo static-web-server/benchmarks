@@ -2,7 +2,7 @@
 
 > A benchmark suite which measures the requests per second and latency on average for several web servers.
 
-<img title="SWS - Benchmarks 2022" src="benchmarks.png" width="860">
+<img title="SWS - Benchmarks April 2023" src="./data/2023-04/benchmark-2023-04.png" width="860">
 
 ## Motivation and context
 
@@ -17,7 +17,7 @@ In the case of some web servers providing that by default then it gets disabled 
 
 ## Benchmarks history
 
-- [2023-16](./data/2023-16)
+- [2023-04](./data/2023-04)
 - [2022-10](./data/2022-10)
 
 ## Perform the benchmarks
@@ -37,7 +37,7 @@ For more details about settings see [Makefile](./Makefile)
 ## System used
 
 - **OS:** Arch Linux
-- **Kernel:** 5.19.13-arch1-1 (64 bits)
+- **Kernel:** 6.1.11-arch1-1 (64 bits)
 - **Processor:** 4 × Intel® Core™ i7-6500U
 - **RAM:** 8 GiB
 

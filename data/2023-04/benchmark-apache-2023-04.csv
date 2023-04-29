@@ -1,0 +1,2 @@
+requests,duration_ms,requests_per_sec,bytes,bytes_transfer_per_sec,connect_errors,read_errors,write_errors,http_errors,timeouts,latency_min,latency_max,latency_mean_ms,latency_stdev
+1597420,60050.09,26601.46,378882698,6309444.61,0,1101,0,0,0,66.00,225277.00,15.62,22379.37

@@ -31,12 +31,12 @@ done = function(summary, latency, requests)
 
     json = json .. string.format("\t]\n}\n")
 
-    local today = os.date("%Y-%d")
+    local month = os.date("%Y-%m")
 
-    os.execute("mkdir -p data/".. today)
+    os.execute("mkdir -p data/".. month)
 
-    local filename = "benchmark-" .. server_name .. "-" .. today
-    local file_path = "data/" .. today .. "/" .. filename
+    local filename = "benchmark-" .. server_name .. "-" .. month
+    local file_path = "data/" .. month .. "/" .. filename
 
     local file, err = io.open(file_path .. ".json", "w")
     if file then

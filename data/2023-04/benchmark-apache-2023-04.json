@@ -1,0 +1,34 @@
+{
+	"requests": 1597420,
+	"duration_ms": 60050.09,
+	"requests_per_sec": 26601.46,
+	"bytes": 378882698,
+	"bytes_transfer_per_sec": 6309444.61,
+	"connect_errors": 0,
+	"read_errors": 1101,
+	"write_errors": 0,
+	"http_errors": 0,
+	"timeouts": 0,
+	"latency_min": 66.00,
+	"latency_max": 225277.00,
+	"latency_mean_ms": 15.62,
+	"latency_stdev": 22379.37,
+	"latency_distribution": [
+		{
+			"percentile": 50,
+			"latency_ms": 2.76
+		},
+		{
+			"percentile": 75,
+			"latency_ms": 25.73
+		},
+		{
+			"percentile": 90,
+			"latency_ms": 50.02
+		},
+		{
+			"percentile": 99,
+			"latency_ms": 88.80
+		}
+	]
+}
